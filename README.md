@@ -1,6 +1,12 @@
 # Modem Info Mod
 Modem info for the LuCI status page (OpenWrt webUI).
 
+Compatible with Huawei USB modems and Sierra Wireless modems in LTE networks.
+
+Tested devices:
+
+Huawei E3372
+
 OpenWrt >= 19.07.
 
 ![](https://raw.githubusercontent.com/kevindoni/modem-mod/main/ddd.png)
