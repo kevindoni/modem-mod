@@ -18,7 +18,8 @@ OpenWrt >= 19.07.
 
 1. Download semua folder modem-mod
 2. Copy paste isi di folder modem-mod ke folder openwrt sesuai letaknya
-
+3. Folder luasrc ada di usr/lib/lua/luci
+4. Untuk folder cbi/modem silahkan dragdrop aja
 **!!! FOLDER JANGAN DI REPLAYS CUKUP COPY ISI NYA !!!**
 
 # DWYR
