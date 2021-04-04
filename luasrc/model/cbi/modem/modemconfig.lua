@@ -16,7 +16,7 @@ s = m:section(TypedSection, "modem", "<p>&nbsp;</p>" .. translate("Choose bands 
 s.anonymous = true
 
 -- disable broken
---[[ 
+ 
 netmode = s:option(ListValue, "mode", translate("Net Mode"),
 translate("Preffered Network mode select."))
 if mode4g == 0 then
@@ -42,7 +42,7 @@ if mode2g == 0 then
 	netmode:value("2g", "2G only")
 end
 netmode.default = "p4g3g"
-]]--
+
 
 if mode2g == 0 then
 	gsm = s:option(StaticList, "gsm_band", translate("2G"))
